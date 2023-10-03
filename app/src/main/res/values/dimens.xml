@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_45">45sp</dimen>
+
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_35">35dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+
+    <dimen name="size_0">0dp</dimen>
+    <dimen name="corner_radius_25">25dp</dimen>
+    <dimen name="elevation_2">2dp</dimen>
+    <dimen name="size_100">100dp</dimen>
+    <dimen name="size_150">150dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562626434918",
+    "project_id": "elfsrealm-a975e",
+    "storage_bucket": "elfsrealm-a975e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562626434918:android:b7e1314604848402935aa7",
+        "android_client_info": {
+          "package_name": "com.elf.real.me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDacB7vtjTQjDKL9G71cBtbjzn0CfNWSpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".game.ui.GameActivity">
+
+    <TextView
+        android:id="@+id/turnTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:fontFamily="@font/bomb"
+        android:shadowColor="#000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="@string/turn_x"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_40"
+        app:layout_constraintBottom_toTopOf="@+id/board_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/board_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_0"
+        android:layout_margin="@dimen/margin_15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turnTV"
+        tools:ignore="VisualLintBounds">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/field_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wooden_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/row">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/a1"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/a2"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/a3"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <View style="@style/horizontalLine" />
+
+            <LinearLayout style="@style/row">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/b1"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/b2"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/b3"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <View style="@style/horizontalLine" />
+
+            <LinearLayout style="@style/row">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/c1"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/c2"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View style="@style/verticalLine" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/c3"
+                    style="@style/column"
+
+                    android:contentDescription="@string/field_content_description"
+                    android:onClick="boardTapped"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

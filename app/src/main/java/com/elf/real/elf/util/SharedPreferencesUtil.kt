@@ -1,4 +1,4 @@
-package com.elf.real.me.util
+package com.elf.real.elf.util
 
 import android.content.Context
 import android.content.SharedPreferences

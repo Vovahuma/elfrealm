@@ -1,11 +1,11 @@
-package com.elf.real.me.game.viewmodel
+package com.elf.real.elf.game.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.elf.real.me.R
-import com.elf.real.me.game.ButtonObject
-import com.elf.real.me.game.GameLogic
-import com.elf.real.me.game.Turn
+import com.elf.real.elf.R
+import com.elf.real.elf.game.ButtonObject
+import com.elf.real.elf.game.GameLogic
+import com.elf.real.elf.game.Turn
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

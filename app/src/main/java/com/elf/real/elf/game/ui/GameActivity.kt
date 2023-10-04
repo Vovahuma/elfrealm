@@ -1,4 +1,4 @@
-package com.elf.real.me.game.ui
+package com.elf.real.elf.game.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.elf.real.me.databinding.ActivityGameBinding
-import com.elf.real.me.game.ButtonObject
-import com.elf.real.me.game.viewmodel.GameViewModel
-import com.elf.real.me.result.ResultActivity
+import com.elf.real.elf.databinding.ActivityGameBinding
+import com.elf.real.elf.game.ButtonObject
+import com.elf.real.elf.game.viewmodel.GameViewModel
+import com.elf.real.elf.result.ResultActivity
 import kotlinx.coroutines.launch
 
 class GameActivity : AppCompatActivity() {

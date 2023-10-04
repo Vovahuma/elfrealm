@@ -1,4 +1,4 @@
-package com.elf.real.me.game
+package com.elf.real.elf.game
 
 class GameLogic {
     companion object {

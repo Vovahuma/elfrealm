@@ -1,7 +1,7 @@
-package com.elf.real.me
+package com.elf.real.elf
 
 import android.app.Application
-import com.elf.real.me.util.SharedPreferencesUtil
+import com.elf.real.elf.util.SharedPreferencesUtil
 
 class App : Application() {
 

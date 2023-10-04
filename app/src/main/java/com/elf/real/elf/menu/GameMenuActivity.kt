@@ -1,13 +1,13 @@
-package com.elf.real.me.menu
+package com.elf.real.elf.menu
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.elf.real.me.R
-import com.elf.real.me.databinding.ActivityMenuBinding
-import com.elf.real.me.game.ui.GameActivity
+import com.elf.real.elf.R
+import com.elf.real.elf.databinding.ActivityMenuBinding
+import com.elf.real.elf.game.ui.GameActivity
 
 class GameMenuActivity : AppCompatActivity() {
     private var isSinglePlayerKey = "is_single_player"

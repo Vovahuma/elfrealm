@@ -1,4 +1,4 @@
-package com.elf.real.me.main
+package com.elf.real.elf.main
 
 import android.app.Application
 import android.content.Context

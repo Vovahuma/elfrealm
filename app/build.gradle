@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.elf.real.me'
+    namespace 'com.elf.real.elf'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.elf.real.me"
+        applicationId "com.elf.real.elf"
         minSdk 24
         targetSdk 33
         versionCode 1

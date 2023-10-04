@@ -1,11 +1,11 @@
-package com.elf.real.me.result
+package com.elf.real.elf.result
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.elf.real.me.databinding.ActivityResultBinding
-import com.elf.real.me.game.ui.GameActivity
-import com.elf.real.me.menu.GameMenuActivity
+import com.elf.real.elf.databinding.ActivityResultBinding
+import com.elf.real.elf.game.ui.GameActivity
+import com.elf.real.elf.menu.GameMenuActivity
 
 class ResultActivity : AppCompatActivity() {
     private var isSinglePlayerKey = "is_single_player"

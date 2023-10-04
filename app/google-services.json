@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:562626434918:android:b7e1314604848402935aa7",
+        "mobilesdk_app_id": "1:562626434918:android:3f948ded232fa48b935aa7",
         "android_client_info": {
-          "package_name": "com.elf.real.me"
+          "package_name": "com.elf.real.elf"
         }
       },
       "oauth_client": [],

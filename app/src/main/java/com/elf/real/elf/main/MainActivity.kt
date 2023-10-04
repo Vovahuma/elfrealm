@@ -1,4 +1,4 @@
-package com.elf.real.me.main
+package com.elf.real.elf.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.provider.Settings
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
-import com.elf.real.me.App.Companion.sharedPrefs
-import com.elf.real.me.R
-import com.elf.real.me.databinding.ActivityMainBinding
-import com.elf.real.me.loading.LoadingActivity
-import com.elf.real.me.menu.GameMenuActivity
+import com.elf.real.elf.App.Companion.sharedPrefs
+import com.elf.real.elf.R
+import com.elf.real.elf.databinding.ActivityMainBinding
+import com.elf.real.elf.loading.LoadingActivity
+import com.elf.real.elf.menu.GameMenuActivity
 import com.onesignal.OneSignal
 import kotlinx.coroutines.launch
 

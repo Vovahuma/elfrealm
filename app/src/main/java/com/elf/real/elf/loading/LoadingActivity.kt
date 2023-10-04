@@ -1,4 +1,4 @@
-package com.elf.real.me.loading
+package com.elf.real.elf.loading
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -17,10 +17,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
-import com.elf.real.me.App.Companion.sharedPrefs
-import com.elf.real.me.R
-import com.elf.real.me.databinding.ActivityLoadingBinding
-import com.elf.real.me.menu.GameMenuActivity
+import com.elf.real.elf.App.Companion.sharedPrefs
+import com.elf.real.elf.R
+import com.elf.real.elf.databinding.ActivityLoadingBinding
+import com.elf.real.elf.menu.GameMenuActivity
 
 class LoadingActivity : AppCompatActivity() {
 
